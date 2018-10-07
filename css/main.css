@@ -74,3 +74,18 @@ h1 {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.footer {
+  width: 100%;
+  background-color: #41f4b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+.contacts {
+  width: 1024px;
+  font-size: 2rem;
+  color: #eee;
+  text-align: center;
+}
