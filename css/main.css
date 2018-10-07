@@ -46,3 +46,31 @@ html {
 h1 {
   font-size: 2rem;
 }
+
+.main {
+  width: 1024px;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main__image img {
+  position: absolute;
+  right: 0;
+  height: 50rem;
+  z-index: 1;
+}
+
+.about-myself {
+  height: 100%;
+  background-color: #eee;
+  position: relative;
+}
+
+.biography {
+  font-size: 1.6rem;
+  margin-left: 2.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
