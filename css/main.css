@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 100%;
+}
+
+.header {
+  height: 15rem;
+  color: #fff;
+  background-color: #41f4b2;
+}
+
+.nav-bar {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.logo span {
+  display: block;
+}
+
+.social-networks {
+  font-size: 4.5rem;
+}
+.social-networks a {
+  color: #eee;
+}
+
+.social-networks a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.main {
+  width: 1024px;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main__image img {
+  position: absolute;
+  right: 0;
+  height: 50rem;
+  z-index: 1;
+}
+
+.about-myself {
+  height: 100%;
+  background-color: #eee;
+  position: relative;
+}
+
+.biography {
+  font-size: 1.6rem;
+  margin-left: 2.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer {
+  width: 100%;
+  background-color: #41f4b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+.contacts {
+  width: 1024px;
+  font-size: 2rem;
+  color: #eee;
+  text-align: center;
+}
